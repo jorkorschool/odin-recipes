@@ -1,0 +1,164 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix the Cascade</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+
+    <button id="confirm-button" class="button confirm">Confirm</button>
+    <button id="cancel-button" class="button cancel">Cancel</button>
+
+    <div class="text">I'm a div with thin text!</div>
+    <div class="text">I'm a div with thin text and a child div!
+      <div class="text child">I'm a smaller child div with extra bold text.</div>
+    </div>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitro Sports Cards</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 15px;
+    }
+
+    section {
+      box-sizing: border-box;
+      margin: 20px auto;
+      padding: 20px;
+      background: linear-gradient(to bottom, #96eded, #c76a6a); /* Dark blue to black gradient */
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    h2 {
+  color: #5a00c8;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 800px;
+}
+
+
+    p {
+      line-height: 1.5;
+    }
+
+    .card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 1px;
+  transition: transform 0.3s ease-in-out;
+  width: 250px; /* Set a fixed width */
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  color: #333;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 0.9em;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card a:hover {
+  background-color: seagreen;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding:0;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nitro Sports Cards</h1>
+  </header>
+  
+  <section>
+    <h2>Welcome to Nitro Sports Cards!</h2>
+    <ul>
+    <li class="card">
+      <h3>Consign Your Card</h3>
+      <p>Ready to consign your sports card? We make it easy for you. Submit your card for consignment and reach a wider audience of collectors.</p>
+      <a href="https://example.com/consign-form" target="_blank">Consign Now</a>
+    </li>
+
+    <li class="card">
+      <h3>Sell to Us</h3>
+      <p>Looking to sell your sports card directly to us? Get a quick and competitive offer. We're always interested in quality cards for our collection.</p>
+      <a href="https://example.com/sell-form" target="_blank">Sell Now</a>
+    </li>
+  </ul>
+  </section>
+  
+  <footer>
+    &copy; 2023 Nitro Sports Cards
+  </footer>
+</body>
+</html>
